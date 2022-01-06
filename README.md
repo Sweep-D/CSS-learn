@@ -1,5 +1,5 @@
 <details>
-    <summary>CSS-learn</summary>
+    <summary>CSS-Basics</summary>
 
 
 ## CSS3 Basic Rules
@@ -100,6 +100,60 @@
 - Lots of elements from html...
 
 </details>
+
 <details>
-<summary>BootStrap</summary>
+<summary>BootStrap 4</summary>
+
+## What is Bootstrap? 
+- Framework for building websites. Keep responsive design in mind.
+- Download getbootstrap.com
+- Responsive meta tag
+    <meta name="viewport">
+- So read bootstrap documentation to get what you want. 
+- Lists are done with <ul></ul>
+
+## Creating Containers
+    - <div class="container"> </div>
+      - <div class="row">
+      - <div class="col-lg-4 col-sm-6">
+      - <div class="card"> # Cool images http://placehold.it/
+        - <img class="card-img-top">
+        - <div class="card-body"> 
+          -<h4 class="card-title">
+    - Container fluid
+      - will go as wide as the browser goes
+
+## Styling images
+- class="rounded"
+- rounded-circle 
+- img-fluid
+- img-thumbnail
+
+## Creating the Footer
+- footer class="py-5 bg-dark"
+  - <div class="container"> 
+  - <p>Footer Copy Here </p>
+  - fixed-bottom
+
+## Adding styled buttons
+- <button type="button" class="btn">
+
 </details>
+
+## Adding Google Maps
+- Check google api documentation
+
+## Image Carousel
+- class="carousel slide" data-ride="carousel"
+  - carousel-indicators
+  - data-target="id" data-slide-to="0"
+  - Check bootstrap documentation for it...
+
+
+## Adding a contact form
+- <form> 
+  - <label for="name">
+  - <input type="text" class="form-control" id="name" placeholder="your name">
+  - <input type="text" class="form-control" id="email" placeholder="your email">
+  -<button type="submit" class="btn btn-primary">Send my message</button>
+  
